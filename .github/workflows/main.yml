@@ -22,4 +22,6 @@ jobs:
       - name: 'Start Sign'
         env:
           BDUSS: ${{ secrets.BDUSS }}
-        run: python main.py
+        run: python main.py 
+        
+         
